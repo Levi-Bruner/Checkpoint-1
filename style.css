@@ -1,0 +1,15 @@
+/* *{
+  border: solid 1px black;
+} */
+.bg-img{
+  background-image: url(https://www.123freevectors.com/wp-content/original/113997-light-blue-diagonal-stripes-background-vector.jpg);
+}
+
+.flex-container {
+  display: flex;
+}
+
+@media all and (min-width: 768px) {
+  .me {order: 2;}
+  .wcb {order: 1;}
+}
