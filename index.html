@@ -31,12 +31,16 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand" href="#">
-          <button class="btn"><i class="fa fa-home"></i></button></a>
-        </button>
+          <button class="btn"><i class="fa fa-home"></i></button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </a>
         <div class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">First <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">First
+                <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Second</a>
@@ -51,54 +55,90 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="row flex-container">
-        <div class="col-12 col-md-6 me">
-          Media element
-        </div>
-        <div class="col-12 col-md-6 wcb">
-          Written content & button
-        </div>
+    <div class="row flex-container">
+      <div class="col-12 col-md-6 me">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+        </iframe>
       </div>
+      <div class="col-12 col-md-6 wcb  flex-container column left">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab dolores accusantium! Aut
+          eius earum
+          cupiditate rerum voluptates dolorem nobis architecto atque. <br> <br>Beatae dignissimos nobis porro quaerat
+          quis,
+          consequuntur dolorum?</div>
+        <button class="but">
+          Button
+        </button>
+      </div>
+    </div>
   </div>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-4 move-right">
-        <div>
-          img & card
+    <div class="row top image-row">
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/150" alt="" class="pics">
+        <div class="card" style="width: 12rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
-      <div class="col-12 col-md-4 move-right">
-        <div>
-          img & card
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/150" alt="" class="pics">
+        <div class="card" style="width: 12rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
-      <div class="col-12 col-md-4 move-right">
-        <div>
-          img & card
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/150" alt="" class="pics">
+        <div class="card" style="width: 12rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
-      <!--Row line break-->
     </div>
-    <div class="row">
-      <div class="col-12 col-md-6">
-        img
-      </div>
-      <div class="col-12 col-md-6">
-        description
-      </div>
-    </div>
-    <div class="row">
-      <div class=col-12>
-        logo <p>description</p>
-      </div>
-    </div>
-    <footer>
-      content
-    </footer>
   </div>
-  <!--Container ends-->
-  </main>
+  <div class="container flex-container bottom">
+    <div class="row top left center">
+      <div class="col-12 col-md-6">
+        <img src="https://picsum.photos/350" alt="">
+      </div>
+      <div class="col-12 col-md-6 flex-end">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, recusandae quos reiciendis in adipisci
+        laudantium optio nesciunt quam modi aspernatur magni natus similique, dicta error veniam. Assumenda quos sint
+        porro.
+      </div>
+    </div>
+  </div>
+
+  <div class="row image-row">
+    <i class="fa fa-home">
+      <p>Descriptive Text</p>
+    </i>
+  </div>
+  <footer class="row">
+    <!--flex container, justify content space between-->
+    <div class="col-12 col-md-6">
+      <a class="nav-link wcb" href="#">First <span class="sr-only">(current)</span></a>
+    </div>
+    <div class="col-12 col-md-6">
+      <a class="nav-link me" href="#">Second <span class="sr-only">(current)</span></a>
+    </div>
+  </footer>
 </body>
 
 </html>
