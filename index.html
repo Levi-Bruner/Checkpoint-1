@@ -31,7 +31,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand" href="#">
-          <button class="btn"><i class="fa fa-home"></i></button>
+          <button class="but"><i class="fa fa-home"></i></button>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,10 +55,9 @@
         </div>
       </nav>
     </header>
-    <div class="row flex-container">
-      <div class="col-12 col-md-6 me">
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ">
-        </iframe>
+    <div class="row flex-container row-1">
+      <div class="col-12 col-md-6 me embed-responsive embed-responsive-16by9">
+        <iframe class "embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
       </div>
       <div class="col-12 col-md-6 wcb  flex-container column left">
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab dolores accusantium! Aut
@@ -74,50 +73,46 @@
   </div>
   <div class="container-fluid">
     <div class="row top image-row">
-      <div class="col-12 col-md-4">
-        <img src="https://picsum.photos/150" alt="" class="pics">
-        <div class="card" style="width: 12rem;">
-          <div class="card-body absolute">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's
-              content.</p>
-            <a href="#" class="btn btn-primary relative">Go somewhere</a>
+      <div class="col-12 col-md-4 flex-container justify-content-center lower">
+        <div class="card text-center flex-container">
+          <img class="card-img-top pics" src="https://picsum.photos/150" alt="">
+          <div class="card-body">
+            <div class="card-text">Here is some example text to make up the body of my card.</div>
+            <button class="btn">Button</button>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
-        <img src="https://picsum.photos/150" alt="" class="pics">
-        <div class="card" style="width: 12rem;">
-          <div class="card-body absolute">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's
-              content.</p>
-            <a href="#" class="btn btn-primary relative">Go somewhere</a>
+
+
+      <div class="col-12 col-md-4 flex-container justify-content-center lower">
+        <div class="card text-center flex-container">
+          <img class="card-img-top pics" src="https://picsum.photos/150" alt="">
+          <div class="card-body">
+            <div class="card-text">Here is some example text to make up the body of my card.</div>
+            <button class="btn">Button</button>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
-        <img src="https://picsum.photos/150" alt="" class="pics">
-        <div class="card" style="width: 12rem;">
-          <div class="card-body absolute">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's
-              content.</p>
-            <a href="#" class="btn btn-primary relative">Go somewhere</a>
+
+      <div class="col-12 col-md-4 flex-container justify-content-center lower">
+        <div class="card text-center flex-container">
+          <img class="card-img-top pics" src="https://picsum.photos/150" alt="">
+          <div class="card-body">
+            <div class="card-text">Here is some example text to make up the body of my card.</div>
+            <button class="btn">Button</button>
           </div>
         </div>
       </div>
+
     </div>
   </div>
-  <div class="container flex-container bottom">
-    <div class="row top left center">
-      <div class="col-12 col-md-6">
+  </div>
+  <div class="container flex-container bottom row-3">
+    <div class="row top left center flex-container">
+      <div class="col-12 col-md-6 d-flex justify-content-center">
         <img src="https://picsum.photos/350" alt="">
       </div>
-      <div class="col-12 col-md-6 flex-end">
+      <div class="col-12 col-md-6 d-flex justify-content-center">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, recusandae quos reiciendis in adipisci
         laudantium optio nesciunt quam modi aspernatur magni natus similique, dicta error veniam. Assumenda quos sint
         porro.
@@ -131,14 +126,15 @@
     </i>
   </div>
   <footer class="row">
-    <!--flex container, justify content space between-->
-    <div class="col-12 col-md-6">
-      <a class="nav-link wcb" href="#">First <span class="sr-only">(current)</span></a>
+    <div class="col-12 col-md-6 d-flex justify-content-md-start justify-content-center">
+      <a class="nav-link" href="#">First <span class="sr-only">(current)</span></a>
     </div>
-    <div class="col-12 col-md-6">
-      <a class="nav-link me" href="#">Second <span class="sr-only">(current)</span></a>
+    <div class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center">
+      <a class="nav-link" href="#">Second <span class="sr-only">(current)</span></a>
     </div>
   </footer>
+
 </body>
+
 
 </html>
